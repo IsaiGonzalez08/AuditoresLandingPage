@@ -9,8 +9,8 @@ export const Contactanos = () => {
         <>
             <Header></Header>
             <Nav titulo="Contáctanos" img={ImgContactanos}></Nav>
-            <div className="flex flex-col pb-20">
-                <Subtitulos subtitulo="Contacto"></Subtitulos>
+            <div className="flex flex-col pb-20 pt-20">
+                <Subtitulos subtitulo="Contacto" nombre="González Ruiz Auditores" ancho="w-[600px]"></Subtitulos>
                 <div className="flex flex-row justify-around mt-5">
                     <div className="flex flex-col mr-28">
                         <p className='font-normal text-lg'>
