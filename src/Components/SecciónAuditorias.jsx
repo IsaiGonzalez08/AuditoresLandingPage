@@ -25,13 +25,13 @@ export const SeccionAuditorias = () => {
                     patronales, etc.    
                 </p>
                 <div className='flex justify-center gap-8 mt-4'>
-                    <button className='border-2 border-[#397A80] w-48 h-12 rounded-[10px] text-[#397A80] font-semibold
+                    <button className='border-2 border-[#397A80] w-48 h-12 rounded-[10px] text-[#397A80] font-bold
                                        hover:scale-105 hover:duration-300'>
-                    Quienes somos
+                    Categorías
                     </button>
-                    <button className='bg-[#397A80] w-48 h-12 rounded-[10px] text-[#FAFAFA] font-semibold
+                    <button className='bg-[#397A80] w-48 h-12 rounded-[10px] text-[#FAFAFA] font-bold
                                        hover:scale-105 hover:duration-300'>
-                    Quienes somos
+                    Contactar
                     </button>
                 </div>
             </div>
