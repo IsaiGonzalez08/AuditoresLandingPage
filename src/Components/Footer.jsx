@@ -51,15 +51,15 @@ export const Footer = () => {
                     <div className='flex flex-col gap-5 mt-2'>
                         <div className='flex flex-row items-center'>
                             <img src={Facebook} alt="Logo-Facebook" />
-                            <h2 className='font-medium text-xs'>Facebook</h2>
+                            <h2 className='font-medium text-xs ml-3'>Facebook</h2>
                         </div>
                         <div className='flex flex-row items-center'>
                             <img src={LinkedIn} alt="Logo-LinkenIn" />
-                            <h2 className='font-medium text-xs'>LinkedIn</h2>
+                            <h2 className='font-medium text-xs ml-3'>LinkedIn</h2>
                         </div>
                         <div className='flex flex-row items-center'>
                             <img src={X} alt="Logo-X" />
-                            <h2 className='font-medium text-xs'>X</h2>
+                            <h2 className='font-medium text-xs ml-3'>X</h2>
                         </div>
                     </div>
                 </div>

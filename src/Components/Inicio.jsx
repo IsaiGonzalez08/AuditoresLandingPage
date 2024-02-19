@@ -3,7 +3,7 @@ import ImgInicio from '../assets/img/ImgInicio.svg'
 export const Inicio = () => {
     return(
         <div className="flex justify-between">
-            <div className="flex flex-col gap-8 justify-center ml-36 mt-[-60px]">
+            <div className="flex flex-col gap-8 justify-center ml-32 mt-[-60px]">
                 <h2 className="flex flex-col text-5xl gap-4">
                     <span className="text-[#A1ADAF] font-normal">Despacho de auditorías</span>
                     <span className="text-[#397A80] font-semibold">González Ruiz Auditores</span>
