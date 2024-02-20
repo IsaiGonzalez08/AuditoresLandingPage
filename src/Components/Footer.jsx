@@ -16,7 +16,7 @@ export const Footer = () => {
                             <span className='text-[#548BA5]'>Auditores</span>
                         </h2>
                     </div>
-                    <p className='font-normal text-xs leading-6'>
+                    <p className='mt-3 font-normal text-xs leading-6'>
                         Tuxtla Gutiérrez, Chiapas. <br />
                         1052, Av 2a. Sur Pte. El cerrito, 30540 <br />
                         +52 (55) 4341 1637 <br />

@@ -10,13 +10,13 @@ export const Nosotros = () => {
         <>
             <Header></Header>
             <Nav titulo="Nosotros" img={ImgNosotros}></Nav>
-            <div className="flex items-center justify-center pt-20 pb-20">
+            <div className="flex items-center justify-center pt-20 pb-20 gap-20">
                 <div>
                     <img src={NosotrosImg} alt="Img-Nosotros" />
                 </div>
                 <div className="flex flex-col">
                     <Subtitulos subtitulo="Nosotros" nombre="González Ruiz Auditores" ancho="w-[539px]"/>
-                    <p className="flex justify-center ml-[100px] font-light text-base leading-6 tracking-widest mt-5">
+                    <p className="font-light text-base leading-6 tracking-widest mt-5">
                     El despacho cuenta con más de 20 años de experiencia <br /> 
                     prestando servicios de contabilidad, auditoría y <br /> 
                     administración así como asesoría en impuestos. Esta <br /> 
@@ -30,10 +30,10 @@ export const Nosotros = () => {
                     República Mexicana.</p>
                 </div>
             </div>
-            <div className="flex justify-center mr-24 pb-20">
+            <div className="flex justify-around mr-24 pb-20 ml-16 gap-2">
                 <div>
                     <Subtitulos subtitulo="Misión" nombre="" ancho="w-[514px]"/>
-                    <p className="flex justify-center ml-32 leading-6 tracking-widest mt-5">
+                    <p className="flex justify-center leading-6 tracking-widest mt-5">
                     El despacho cuenta con más de 40 años de experiencia <br /> 
                     prestando servicios de contabilidad, auditoría y <br /> 
                     administración así como asesoría en impuestos. Esta <br /> 
@@ -43,13 +43,18 @@ export const Nosotros = () => {
                 </div>
                 <div className="">
                     <Subtitulos subtitulo="Visión" nombre="" ancho="w-[514px]"/>
-                    <p className="flex justify-center ml-32 leading-6 tracking-widest mt-5">
+                    <p className="flex justify-center leading-6 tracking-widest mt-5">
                     El despacho cuenta con más de 40 años de experiencia <br /> 
                     prestando servicios de contabilidad, auditoría y <br /> 
                     administración así como asesoría en impuestos. Esta <br /> 
                     experiencia en el mercado mexicano representa un valor <br /> 
                     agregado para sus clientes.
                     </p>
+                </div>
+            </div>
+            <div className="ml-32">
+                <div>
+                    <Subtitulos subtitulo="Nuestro Equipo" nombre="Gonzalez Ruiz Auditores" ancho="w-[514px]"></Subtitulos>
                 </div>
             </div>
             <Footer></Footer>
