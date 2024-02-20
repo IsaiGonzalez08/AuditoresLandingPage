@@ -2,7 +2,7 @@ import ImgAuditorias from '../assets/img/ImgAuditorias.svg'
 
 export const SeccionAuditorias = () => {
     return(
-        <div className="bg-[#FAFAFA] flex justify-around">
+        <div className="bg-[#F3F3F3] flex justify-around">
             <div>
                 <img className='rounded-[10px]' src={ImgAuditorias} alt="Img-Auditorias" />
             </div>

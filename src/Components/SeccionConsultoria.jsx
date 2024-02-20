@@ -10,7 +10,7 @@ export const SeccionDisposicion = () => {
                         <h4 className="text-[#A1ADAF] font-light">Gonzalez Ruiz Auditores</h4>
                     </div>
                     <div className="flex items-center justify-center bg-[#FAFAFA] border-[2.5px] border-[#397A80] w-14 h-14 rounded-xl">
-                        <h2 className="text-[#397A80] font-bold text-3xl">A</h2>
+                        <h2 className="text-[#397A80] font-bold text-3xl">C</h2>
                     </div>
                 </div>
                 <div className='bg-[#397A80] w-[539px] h-[2px]'></div>

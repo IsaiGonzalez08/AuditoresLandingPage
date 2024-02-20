@@ -2,6 +2,7 @@ import Logo2 from '../assets/icon/Logo2.svg'
 import Facebook from '../assets/icon/Facebook.svg'
 import LinkedIn from '../assets/icon/LinkedIn.svg'
 import X from '../assets/icon/X.svg'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
     return(
@@ -12,7 +13,7 @@ export const Footer = () => {
                         <img src={Logo2} alt="Logo-Footer" className='w-12 h-10' />
                         <h2 className='font-semibold text-xs mt-2'>
                             <span className='text-[#52ADB6]'>Gonzalez Ruiz </span>
-                            <span className='text-[#548BA5]'>Audiotores</span>
+                            <span className='text-[#548BA5]'>Auditores</span>
                         </h2>
                     </div>
                     <p className='font-normal text-xs leading-6'>
@@ -24,7 +25,7 @@ export const Footer = () => {
                     </p>
                 </div>
                 <div className='flex flex-col gap-3'>
-                    <h2 className='text-[#000000] font-semibold text-sm'>Servicios</h2>
+                    <Link to="/Servicios" className='text-[#000000] font-semibold text-sm hover:text-[#397A80] hover:duration-300'>Servicios</Link>
                     <div className='bg-[#397A80] w-[474px] h-[2px]'/>
                     <div className='flex flex-row gap-24'>
                         <ul className='list-inside list-disc flex flex-col gap-2'> 
