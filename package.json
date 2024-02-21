@@ -10,19 +10,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emailjs/browser": "^4.1.0",
-    "@google/markerclustererplus": "^5.0.3",
-    "@googlemaps/js-api-loader": "^1.12.1",
     "@react-google-maps/api": "^2.19.3",
-    "@vis.gl/react-google-maps": "^0.7.0",
     "emailjs-com": "^3.2.0",
     "google-map-react": "^2.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.22.1",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "react-router-dom": "^6.22.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.55",

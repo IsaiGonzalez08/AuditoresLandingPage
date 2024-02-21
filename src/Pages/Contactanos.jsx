@@ -14,7 +14,7 @@ export const Contactanos = () => {
     const enviarEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_tr8emmu','template_ads0sty',e.target,'-AEnOZ1NIz3dBVu0E').then(res=>{
+        emailjs.sendForm('service_tr8emmu','template_qhnyoxd',e.target,'-AEnOZ1NIz3dBVu0E').then(res=>{
             console.log(res);
             alert("Correo enviado")
         })
