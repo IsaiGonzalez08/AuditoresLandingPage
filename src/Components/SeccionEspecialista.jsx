@@ -1,6 +1,14 @@
-import ImgEspecialista from '../assets/img/ImgEspecialista.svg'
+import { useNavigate } from 'react-router-dom'
+import ImgEspecialista from '../assets/img/ImgEspecialista.png'
 
 export const SeccionEspecialista = () => {
+
+    const navigate = useNavigate()
+
+    const handleNavigate = () => {
+        navigate('/Contactanos')
+    }
+
     return(
         <div className="flex justify-between bg-[#FAFAFA]">
             <div>
@@ -13,7 +21,7 @@ export const SeccionEspecialista = () => {
                     solución adecuada para su empresa, regístrese para <br /> 
                     una asesoría gratuita.
                 </p>
-                <button className="bg-[#397A80] font-bold text-[#FCFEFE] w-48 h-12 rounded-[10px] hover:scale-105 hover:duration-300">Contactar</button>
+                <button onClick={handleNavigate} className="bg-[#397A80] font-bold text-[#FCFEFE] w-48 h-12 rounded-[10px] hover:scale-105 hover:duration-300">Contactar</button>
             </div>
         </div>
     )

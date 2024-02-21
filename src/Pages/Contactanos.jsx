@@ -4,7 +4,7 @@ import { Header } from "../Components/Header"
 import SimpleMap from "../Components/Mapa"
 import { Nav } from "../Components/Nav"
 import { Subtitulos } from "../Components/Subtitulos"
-import ImgContactanos from '../assets/icon/ImgNosotros.svg'
+import ImgContacto from '../assets/img/ImgContacto.png'
 import emailjs from 'emailjs-com'
 
 export const Contactanos = () => {
@@ -23,7 +23,7 @@ export const Contactanos = () => {
     return(
         <>
             <Header></Header>
-            <Nav titulo="Contáctanos" img={ImgContactanos}></Nav>
+            <Nav titulo="Contáctanos" img={ImgContacto}></Nav>
             <div className="flex flex-col pb-20 pt-20">
                 <div className="ml-20">
                     <Subtitulos subtitulo="Contacto" nombre="González Ruiz Auditores" ancho="w-[600px]"></Subtitulos>

@@ -1,6 +1,14 @@
-import ImgInicio from '../assets/img/ImgInicio.svg'
+import { useNavigate } from 'react-router-dom'
+import ImgInicio from '../assets/img/ImgInicio.png'
 
 export const Inicio = () => {
+
+    const Navigate = useNavigate()
+
+    const handleNavigate = () => {
+        Navigate('/Nosotros')
+    }
+
     return(
         <div className="flex justify-between">
             <div className="flex flex-col gap-8 justify-center ml-32 mt-[-60px]">
@@ -13,7 +21,7 @@ export const Inicio = () => {
                     mas de 20 años de experiencia, brindado servicios de <br /> 
                     auditoria a sectores públicos y privados.
                 </p>
-                <button className="flex justify-center items-center w-48 h-12 border-2 bg-[#FCFEFE] 
+                <button onClick={handleNavigate} className="flex justify-center items-center w-48 h-12 border-2 bg-[#FCFEFE] 
                                  border-[#397A80] text-[#397A80] rounded-[10px] hover:scale-105 hover:duration-500
                                    hover:bg-[#397A80] hover:text-[#FCFEFE] text-base font-semibold">
                     Quienes somos
@@ -26,15 +34,15 @@ export const Inicio = () => {
                     </h2> 
                     <div className='w-[1px] h-20 bg-[#397A80] mt-3'/>
                     <h2 className='flex flex-col text-center hover:scale-105 hover:duration-300'>
-                        <span className='text-[#397A80] font-semibold text-6xl'>20</span>
-                        <span className='text-[#A1ADAF] font-semibold text-base leading-5'>años de</span>
-                        <span className='text-[#397A80] font-semibold text-base leading-5'>Experiencia</span>
+                        <span className='text-[#397A80] font-semibold text-6xl'>10</span>
+                        <span className='text-[#A1ADAF] font-semibold text-base leading-5'>Tipos de</span>
+                        <span className='text-[#397A80] font-semibold text-base leading-5'>Auditorias</span>
                     </h2>
                     <div className='w-[1px] h-20 bg-[#397A80] mt-3'/>
                     <h2 className='flex flex-col text-center hover:scale-105 hover:duration-300'>
-                        <span className='text-[#397A80] font-semibold text-6xl'>20</span>
-                        <span className='text-[#A1ADAF] font-semibold text-base leading-5'>años de</span>
-                        <span className='text-[#397A80] font-semibold text-base leading-5'>Experiencia</span>
+                        <span className='text-[#397A80] font-semibold text-6xl'>10</span>
+                        <span className='text-[#A1ADAF] font-semibold text-base leading-5'>Plazas de</span>
+                        <span className='text-[#397A80] font-semibold text-base leading-5'>Certificación</span>
                     </h2>
                 </div>
             </div>

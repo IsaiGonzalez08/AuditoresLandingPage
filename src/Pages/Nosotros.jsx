@@ -2,8 +2,8 @@ import { Footer } from "../Components/Footer"
 import { Header } from "../Components/Header"
 import { Nav } from "../Components/Nav"
 import { Subtitulos } from "../Components/Subtitulos"
-import ImgNosotros from "../assets/icon/ImgNosotros.svg"
-import NosotrosImg from '../assets/icon/Nosotros.svg'
+import ImgNosotros from "../assets/img/ImgNosotros.png"
+import NosotrosImg from '../assets/img/Nosotros.png'
 
 export const Nosotros = () => {
     return(

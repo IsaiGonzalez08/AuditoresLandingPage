@@ -1,6 +1,14 @@
-import ImgAuditorias from '../assets/img/ImgAuditorias.svg'
+import { useNavigate } from 'react-router-dom'
+import ImgAuditorias from '../assets/img/ImgAuditorias.png'
 
 export const SeccionAuditorias = () => {
+
+    const navigate = useNavigate()
+
+    const handleNavigate = () => {
+        navigate('/Servicios')
+    }
+
     return(
         <div className="bg-[#F3F3F3] flex justify-around">
             <div>
@@ -25,13 +33,9 @@ export const SeccionAuditorias = () => {
                     patronales, etc.    
                 </p>
                 <div className='flex justify-center gap-8 mt-4'>
-                    <button className='border-2 border-[#397A80] w-48 h-12 rounded-[10px] text-[#397A80] font-bold
+                    <button onClick={handleNavigate} className='border-2 border-[#397A80] w-48 h-12 rounded-[10px] text-[#397A80] font-bold
                                        hover:scale-105 hover:duration-300'>
                     Categorías
-                    </button>
-                    <button className='bg-[#397A80] w-48 h-12 rounded-[10px] text-[#FAFAFA] font-bold
-                                       hover:scale-105 hover:duration-300'>
-                    Contactar
                     </button>
                 </div>
             </div>
