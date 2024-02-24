@@ -20,7 +20,11 @@ const SimpleMap = () => {
   return (
     <div
       ref={mapRef}
-      style={{ height: '282px', width: '600px' }}
+      className='w-[600px] h-[282px] 
+      custom:w-80 custom:h-44 
+      sm:w-[290px] sm:h-64 
+      md:w-[400px] md:h-56
+      lg:w-[470px] lg:h-80'
     />
   );
 };

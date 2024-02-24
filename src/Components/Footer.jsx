@@ -6,12 +6,12 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
     return(
-        <div className="flex flex-col bg-[#F3F3F3] pt-10 pb-10">
-            <div className="flex flex-row  justify-around">
+        <footer className="flex flex-col bg-[#F3F3F3] pt-10 pb-10">
+            <div className="flex flex-row justify-around custom:flex-col custom:items-center lg:flex-row">
                 <div className="flex flex-col gap-3">
-                    <div className='flex items-center gap-3 mt-[-10px]'>
+                    <div className='flex items-center gap-3 mt-[-10px] custom:justify-center'>
                         <img src={Logo2} alt="Logo-Footer" className='w-12 h-10' />
-                        <h2 className='font-semibold text-xs mt-2'>
+                        <h2 className='font-semibold text-xs mt-2 custom:hidden lg:block'>
                             <span className='text-[#52ADB6]'>Gonzalez Ruiz </span>
                             <span className='text-[#548BA5]'>Auditores</span>
                         </h2>
@@ -24,31 +24,35 @@ export const Footer = () => {
                         GRAuditores@gmail.com <br />
                     </p>
                 </div>
-                <div className='flex flex-col gap-3'>
-                    <Link to="/Servicios" className='text-[#000000] font-semibold text-sm hover:text-[#397A80] hover:duration-300'>Servicios</Link>
-                    <div className='bg-[#397A80] w-[474px] h-[2px]'/>
-                    <div className='flex flex-row gap-24'>
+                <div className='flex flex-col gap-3 custom:items-center custom:mt-5 lg:items-start'>
+                    <Link to="/Servicios" 
+                    className='text-[#000000] font-semibold text-sm hover:text-[#397A80] hover:duration-300
+                                custom:text-xs 2xl:text-sm'>
+                    Servicios
+                    </Link>
+                    <div className='bg-[#397A80] w-[474px] h-[2px] custom:w-72 lg:w-[340px]'/>
+                    <div className='flex flex-row gap-24 custom:gap-2 lg:gap-10'>
                         <ul className='list-inside list-disc flex flex-col gap-2'> 
-                            <li className='font-medium text-xs'>Auditoria Fiscal</li>
-                            <li className='font-medium text-xs'>Auditoria Financiera</li>
-                            <li className='font-medium text-xs'>Auditoria Interna</li>
-                            <li className='font-medium text-xs'>Auditoría Gubernamental</li>
-                            <li className='font-medium text-xs'>Auditoria de Contribuciones</li>
-                            <li className='font-medium text-xs'>Valuación Financiera</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Auditoria Fiscal</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Auditoria Financiera</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Auditoria Interna</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Auditoría Gubernamental</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Auditoria de Contribuciones</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Valuación Financiera</li>
                         </ul>
                         <ul className='list-inside list-disc flex flex-col gap-2'>
-                            <li className='font-medium text-xs'>Consultoría Fiscal</li>
-                            <li className='font-medium text-xs'>Auditoría IMSS e INFONAVIT</li>
-                            <li className='font-medium text-xs'>Liquidación de Empresas</li>
-                            <li className='font-medium text-xs'>Sistema de Costos</li>
-                            <li className='font-medium text-xs'>Tesorería</li>
-                            <li className='font-medium text-xs'>Reingeniería de Procesos</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Consultoría Fiscal</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Auditoría IMSS e INFONAVIT</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Liquidación de Empresas</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Sistema de Costos</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Tesorería</li>
+                            <li className='font-medium text-xs custom:text-[10px] 2xl:text-xs'>Reingeniería de Procesos</li>
                         </ul>
                     </div>
                 </div>
-                <div className='flex flex-col gap-3'>
-                    <h2 className='font-semibold text-sm'>Redes sociales</h2>
-                    <div className='bg-[#397A80] w-52 h-[2px]'/>
+                <div className='flex flex-col gap-3 custom:items-center custom:mt-5 lg:items-start'>
+                    <h2 className='font-semibold text-sm custom:text-xs 2xl:text-sm'>Redes sociales</h2>
+                    <div className='bg-[#397A80] w-52 h-[2px] custom:w-72 lg:w-40'/>
                     <div className='flex flex-col gap-5 mt-2'>
                         <div className='flex flex-row items-center'>
                             <img src={Facebook} alt="Logo-Facebook" />
@@ -65,10 +69,14 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-col items-center'>
-                <div className='bg-[#397A80] w-[1278px] h-[2px] mt-5'/>
+            <div className='flex flex-col custom:items-center lg:items-start lg:ml-12'>
+                <div className='bg-[#397A80] w-[1578px] h-[2px] mt-5 custom:w-72 lg:w-[922px] 2xl:w-[1228px] 2xl:ml-[68px]'/>
             </div>
-            <h2 className='ml-24 mt-4 text-[#777575] text-xs'>©2024 González Ruiz Auditores. All rights reserved.</h2>
-        </div>
+            <h2 className='ml-24 mt-4 text-[#777575] text-xs 
+                           custom:text-center lg:text-start
+                           lg:ml-12 2xl:ml-[115px]'>
+            ©2024 González Ruiz Auditores. All rights reserved.
+            </h2>
+        </footer>
     )
 }
