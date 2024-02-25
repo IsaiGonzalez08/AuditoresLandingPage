@@ -9,7 +9,7 @@ export const Inicio = () => {
     }
 
     return (
-        <div className="flex custom:justify-center sm:justify-between 2xl:justify-between ">
+        <div className="flex custom:justify-center custom:pt-5 custom:pb-10 sm:p-0 sm:justify-between 2xl:justify-between 2xl:p-0">
             <div className="flex flex-col 
                             custom:ml-0 custom:gap-3 custom:mt-0 custom:pb-5 custom:items-center
                             sm:gap-4 sm:ml-10 sm:mt-[-30px] sm:justify-center sm:items-start

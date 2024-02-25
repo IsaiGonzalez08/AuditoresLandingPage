@@ -20,16 +20,16 @@ export const Header = () => {
 
   return (
     
-      <div className="flex items-center justify-around bg-[#FCFEFE] w-full h-32">
+      <div className="flex items-center justify-around bg-[#FCFEFE] w-full custom:h-20 2xl:h-32">
         <div className="cursor-pointer flex items-center">
           <NavLink to="/">
-            <img src={Logo} alt="Logo" />
+            <img className="custom:w-10 2xl:w-14" src={Logo} alt="Logo" />
           </NavLink>
         </div>
 
         <button
           onClick={() => setOpen(!open)}
-          className="left-26 z-[1] ml-24 top-10 cursor-pointer sm:hidden w-10 h-10"
+          className="left-26 z-[1] ml-24 top-10 cursor-pointer sm:hidden w-8 h-8"
         >
           {open ? <XMarkIcon /> : <Bars3BottomRightIcon />}
         </button>
@@ -51,10 +51,13 @@ export const Header = () => {
               </a>
             </li>
           ))}
-          <div className="sm:pl-10 md:pl-16 lg:ml-20 xl:ml-32 2xl:ml-0">
+          <div className="sm:pl-14 md:pl-16 lg:ml-20 xl:ml-32 2xl:ml-0">
             <button
                 onClick={handelNavigateContacto}
-                className="2xl:hidden bg-[#397A80] text-[#FCFEFE] w-32 h-10 rounded-[10px] text-base font-semibold hover:scale-105 hover:duration-300"
+                className="2xl:hidden bg-[#397A80] text-[#FCFEFE] rounded-[10px] text-base font-semibold hover:scale-105 hover:duration-300
+                sm:w-20 sm:h-8 sm:text-xs
+                md:w-24 md:h-9 md:text-sm
+                2xl:w-32 2xl:h-10 2xl:text-base"
             >
                 Asesorías
             </button>
@@ -63,9 +66,10 @@ export const Header = () => {
 
         <button
             onClick={handelNavigateContacto}
-            className="custom:hidden 2xl:block bg-[#397A80] text-[#FCFEFE] 
-            w-32 h-10 rounded-[10px] text-base font-semibold hover:scale-105 
-            hover:duration-300"
+            className="custom:hidden bg-[#397A80] text-[#FCFEFE] 
+            rounded-[10px] text-base font-semibold hover:scale-105 
+            hover:duration-300
+            2xl:w-32 2xl:h-10"
           >
             Asesorías
           </button>
