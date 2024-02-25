@@ -72,7 +72,7 @@ export const Footer = () => {
             <div className='flex flex-col custom:items-center lg:items-start lg:ml-12'>
                 <div className='bg-[#397A80] w-[1578px] h-[2px] mt-5 custom:w-72 lg:w-[922px] 2xl:w-[1228px] 2xl:ml-[68px]'/>
             </div>
-            <h2 className='ml-24 mt-4 text-[#777575] text-xs 
+            <h2 className='mt-4 text-[#777575] text-xs 
                            custom:text-center lg:text-start
                            lg:ml-12 2xl:ml-[115px]'>
             ©2024 González Ruiz Auditores. All rights reserved.
