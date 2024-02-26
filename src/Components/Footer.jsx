@@ -16,9 +16,9 @@ export const Footer = () => {
                             <span className='text-[#548BA5]'>Auditores</span>
                         </h2>
                     </div>
-                    <p className='font-normal sm:text-xs sm:leading-5 sm:text-[9px] 2xl:text-xs 2xl:mt-3 2xl:leading-6'>
+                    <p className='font-normal custom:text-[12px] sm:text-xs sm:leading-5 sm:text-[9px] 2xl:text-xs 2xl:mt-3 2xl:leading-6'>
                         Tuxtla Gutiérrez, Chiapas. <br />
-                        1052, Av 2a. Sur Pte. El cerrito, 30540 <br />
+                        1052, Av 2a. Sur Pte. El cerrito.<br />
                         +52 (55) 4341 1637 <br />
                         +52 (55) 4341 1637 <br />
                         GRAuditores@gmail.com <br />
@@ -53,17 +53,17 @@ export const Footer = () => {
                 <div className='flex flex-col gap-3 custom:items-center custom:mt-5 sm:mt-0 lg:items-start 2xl:m-0'>
                     <h2 className='font-semibold text-sm custom:text-xs 2xl:text-sm'>Redes sociales</h2>
                     <div className='bg-[#397A80] h-[2px] custom:w-72 sm:w-28 lg:w-40 2xl:w-52 '/>
-                    <div className='flex flex-col gap-5 mt-2 sm:mr-5 2xl:block'>
+                    <div className='flex flex-col gap-3 mt-2 sm:mr-5 2xl:m-0'>
                         <div className='flex flex-row custom:items-center 2xl:items-center'>
-                            <img className='sm:w-6 2xl:block' src={Facebook} alt="Logo-Facebook" />
+                            <img className='sm:w-6 2xl:w-9' src={Facebook} alt="Logo-Facebook" />
                             <h2 className='font-medium custom:text-xs custom:ml-3 sm:ml-2 sm:text-[10px] 2xl:ml-3 2xl:text-xs'>Facebook</h2>
                         </div>
                         <div className='flex flex-row items-center'>
-                            <img className='sm:w-6 2xl:block' src={LinkedIn} alt="Logo-LinkenIn" />
+                            <img className='sm:w-6 2xl:w-9' src={LinkedIn} alt="Logo-LinkenIn" />
                             <h2 className='font-medium custom:text-xs custom:ml-3 sm:ml-2 sm:text-[10px] 2xl:ml-3 2xl:text-xs'>LinkedIn</h2>
                         </div>
                         <div className='flex flex-row items-center'>
-                            <img className='sm:w-6 2xl:block' src={X} alt="Logo-X" />
+                            <img className='sm:w-6 2xl:w-9' src={X} alt="Logo-X" />
                             <h2 className='font-medium custom:text-xs custom:ml-3 sm:ml-2 sm:text-[10 custom:text-xspx] 2xl:ml-3 2xl:text-xs'>X</h2>
                         </div>
                     </div>

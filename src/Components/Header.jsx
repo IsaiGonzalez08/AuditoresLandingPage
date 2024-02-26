@@ -35,7 +35,7 @@ export const Header = () => {
         </button>
 
         <ul
-          className={`sm:flex sm:gap-10 sm:items-center 2xl:ml-40 2xl:gap-16 sm:pb-0 pb-12 absolute sm:static bg-white sm:z-auto z-[0] left-10 w-full sm:w-auto sm:pl-0 pl-6 transition-all duration-500 ease-in ${
+          className={`sm:flex sm:gap-8 sm:ml-5 sm:items-center 2xl:ml-40 2xl:gap-16 sm:pb-0 pb-12 absolute sm:static bg-white sm:z-auto z-[0] left-10 w-full sm:w-auto sm:pl-0 pl-6 transition-all duration-500 ease-in ${
             open ? "top-10 " : "top-[-490px]"
           }`}
         >
@@ -51,13 +51,11 @@ export const Header = () => {
               </a>
             </li>
           ))}
-          <div className="sm:pl-14 md:pl-16 lg:ml-20 xl:ml-32 2xl:ml-0">
+          <div className="2xl:ml-14">
             <button
                 onClick={handelNavigateContacto}
-                className="2xl:hidden bg-[#397A80] text-[#FCFEFE] rounded-[10px] text-base font-semibold hover:scale-105 hover:duration-300
-                sm:w-20 sm:h-8 sm:text-xs
-                md:w-24 md:h-9 md:text-sm
-                2xl:w-32 2xl:h-10 2xl:text-base"
+                className="sm:hidden bg-[#397A80] text-[#FCFEFE] rounded-[10px] text-base font-semibold hover:scale-105 hover:duration-300
+                custom:w-24 custom:h-8 custom:text-sm"
             >
                 Asesorías
             </button>
@@ -66,10 +64,12 @@ export const Header = () => {
 
         <button
             onClick={handelNavigateContacto}
-            className="custom:hidden bg-[#397A80] text-[#FCFEFE] 
+            className="custom:hidden sm:block bg-[#397A80] text-[#FCFEFE] 
             rounded-[10px] text-base font-semibold hover:scale-105 
             hover:duration-300
-            2xl:w-32 2xl:h-10"
+            sm:w-20 sm:h-7 sm:text-xs
+            xl:w-28 xl:h-8 xl:text-sm
+            2xl:w-32 2xl:h-10 2xl:text-base"
           >
             Asesorías
           </button>
