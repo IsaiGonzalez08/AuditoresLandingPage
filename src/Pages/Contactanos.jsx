@@ -88,8 +88,8 @@ export const Contactanos = () => {
                             </div>
                             <div className="flex flex-col">
                                 <label className="text-[#397A80] font-medium text-sm custom:text-xs xl:text-base">Teléfono</label>
-                                <input type="tel" placeholder="Teléfono" id="tel" name="tel" className="
-                                w-60 h-12 bg-[#F3F3F3] pl-2 custom:w-36 custom:h-10 custom:text-xs lg:w-52 lg:h-11 lg:text-sm 3xl:w-64 3xl:h-12 3xl:text-base" />
+                                <input type="tel" placeholder="Teléfono" id="tel" name="tel" 
+                                className="w-60 h-12 bg-[#F3F3F3] pl-2 custom:w-36 custom:h-10 custom:text-xs lg:w-52 lg:h-11 lg:text-sm 3xl:w-64 3xl:h-12 3xl:text-base" />
                             </div>
                         </div>
                         <div className="flex flex-row">

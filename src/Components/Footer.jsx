@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 export const Footer = () => {
     return(
-        <footer className="flex flex-col bg-[#F3F3F3] pt-10 pb-10">
+        <footer className="flex flex-col bg-[#F3F3F3] pt-10 pb-10 ">
             <div className="flex custom:flex-col custom:items-center sm:flex-row sm:justify-around sm:items-start lg:flex-row lg:justify-around 2xl:flex-row 2xl:justify-around">
                 <div className="flex flex-col gap-3">
                     <div className='flex items-center gap-3 mt-[-10px] custom:justify-center'>
@@ -55,15 +55,15 @@ export const Footer = () => {
                     <div className='bg-[#397A80] h-[2px] custom:w-72 sm:w-28 lg:w-40 2xl:w-52 '/>
                     <div className='flex flex-col gap-3 mt-2 sm:mr-5 2xl:m-0'>
                         <div className='flex flex-row custom:items-center 2xl:items-center'>
-                            <img className='sm:w-6 2xl:w-9' src={Facebook} alt="Logo-Facebook" />
+                            <a href="https://www.facebook.com/?locale=es_LA"><img className='sm:w-6 2xl:w-9' src={Facebook} alt="Logo-Facebook" /></a> 
                             <h2 className='font-medium custom:text-xs custom:ml-3 sm:ml-2 sm:text-[10px] 2xl:ml-3 2xl:text-xs'>Facebook</h2>
                         </div>
                         <div className='flex flex-row items-center'>
-                            <img className='sm:w-6 2xl:w-9' src={LinkedIn} alt="Logo-LinkenIn" />
+                            <a href="https://www.linkedin.com/home"><img className='sm:w-6 2xl:w-9' src={LinkedIn} alt="Logo-LinkenIn" /></a> 
                             <h2 className='font-medium custom:text-xs custom:ml-3 sm:ml-2 sm:text-[10px] 2xl:ml-3 2xl:text-xs'>LinkedIn</h2>
                         </div>
                         <div className='flex flex-row items-center'>
-                            <img className='sm:w-6 2xl:w-9' src={X} alt="Logo-X" />
+                            <a href="https://twitter.com/i/flow/login"><img className='sm:w-6 2xl:w-9' src={X} alt="Logo-X" /></a> 
                             <h2 className='font-medium custom:text-xs custom:ml-3 sm:ml-2 sm:text-[10 custom:text-xspx] 2xl:ml-3 2xl:text-xs'>X</h2>
                         </div>
                     </div>

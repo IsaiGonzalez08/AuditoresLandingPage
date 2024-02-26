@@ -16,9 +16,13 @@ export const Servicios = () => {
         <>
             <Header></Header>
             <Nav titulo="Servicios" img={ImgServicios}></Nav>
-            <div className="flex flex-col pt-20 pb-20 ml-20">
-                <Subtitulos subtitulo="Auditorias" nombre="González Ruiz Auditores" ancho="w-[539px]"/>
-                <div className="flex items-center pl-8 pr-10 gap-14 mt-16 pb-20">
+            <div className="flex flex-col
+                            custom:pt-10 custom:pb-10 
+                            lg:pt-20 lg:pb-20 lg:ml-20">
+                <Subtitulos subtitulo="Auditorias" nombre="González Ruiz Auditores" ancho="custom:w-[300px] sm:w-[539px]"/>
+                <div className="flex items-center  
+                                custom:flex-col custom:gap-8 custom:mt-5
+                                lg:flex-row lg:pl-8 lg:pr-10 lg:gap-14 lg:mt-16 lg:pb-20">
                     <CardServicios
                         img={Card1}
                         titulo="Auditoría financiera"
@@ -45,8 +49,12 @@ export const Servicios = () => {
                     />
                 </div>
 
-                <Subtitulos subtitulo="Contribución" nombre="González Ruiz Auditores" ancho="w-[539px]"/>
-                <div className="flex items-center pl-8 pr-10 gap-14 mt-10 h-[52vh]">
+                <div className="custom:mt-14">
+                    <Subtitulos subtitulo="Contribución" nombre="González Ruiz Auditores" ancho="custom:w-[300px] sm:w-[539px]"/>
+                </div>
+                <div className="flex items-center  
+                                custom:flex-col custom:gap-8 custom:mt-5
+                                lg:flex-row lg:pl-8 lg:pr-10 lg:gap-14 lg:mt-16 lg:pb-20">
                     <CardServicios
                         img={Card4}
                         titulo="Valuación financiera"

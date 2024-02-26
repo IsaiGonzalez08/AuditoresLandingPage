@@ -20,7 +20,7 @@ export const Header = () => {
 
   return (
     
-      <div className="flex items-center justify-around bg-[#FCFEFE] w-full custom:h-20 2xl:h-32">
+      <div className="flex items-center justify-around bg-[#FCFEFE] w-full custom:h-20 sm:h-32">
         <div className="cursor-pointer flex items-center">
           <NavLink to="/">
             <img className="custom:w-10 2xl:w-14" src={Logo} alt="Logo" />
